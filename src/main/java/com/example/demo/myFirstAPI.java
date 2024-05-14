@@ -15,7 +15,7 @@ public class myFirstAPI {
                                @PathVariable("times") int times){
         String str = "";
         for(int i=0;i<times;i++){
-            str+= "Hello " + name + " " + (i+1);
+            str += "Hello " + name + " " + (i+1);
             str += "<br>";
         }
         return str;
